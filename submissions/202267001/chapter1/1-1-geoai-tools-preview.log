@@ -1,0 +1,43 @@
+$ python 1-1-geoai-tools-preview.py
+
+=== 표준 출력 ===
+
+=== 오류 출력 ===
+C:\Users\th030\OneDrive\문서\class1\geoai_public\.venv\Lib\site-packages\pyogrio\raw.py:200: RuntimeWarning: HTTP response code on https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip: 0
+  return ogr_read(
+Traceback (most recent call last):
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\scripts\_seeded_run.py", line 57, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\scripts\_seeded_run.py", line 52, in main
+    runpy.run_path(str(target), run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\lecture_practice\chapter1\code\1-1-geoai-tools-preview.py", line 27, in <module>
+    countries = gpd.read_file(url)
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\.venv\Lib\site-packages\geopandas\io\file.py", line 316, in _read_file
+    return _read_file_pyogrio(
+        filename, bbox=bbox, mask=mask, columns=columns, rows=rows, **kwargs
+    )
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\.venv\Lib\site-packages\geopandas\io\file.py", line 576, in _read_file_pyogrio
+    return pyogrio.read_dataframe(path_or_bytes, bbox=bbox, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\.venv\Lib\site-packages\pyogrio\geopandas.py", line 382, in read_dataframe
+    result = read_func(
+        path_or_buffer,
+    ...<15 lines>...
+        **kwargs,
+    )
+  File "C:\Users\th030\OneDrive\문서\class1\geoai_public\.venv\Lib\site-packages\pyogrio\raw.py", line 200, in read
+    return ogr_read(
+        get_vsi_path_or_buffer(path_or_buffer),
+    ...<15 lines>...
+        datetime_as_string=datetime_as_string,
+    )
+  File "pyogrio/_io.pyx", line 1708, in pyogrio._io.ogr_read
+  File "pyogrio/_io.pyx", line 290, in pyogrio._io.ogr_open
+pyogrio.errors.DataSourceError: '/vsizip/vsicurl/https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip' does not exist in the file system, and is not recognized as a supported dataset name.
+
+[시간 초과] 30초를 넘겨 중단했습니다.
