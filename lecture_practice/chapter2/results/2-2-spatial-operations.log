@@ -1,6 +1,4 @@
-$ C:\Users\user\documents\lee\class\2026-2\geoai\.venv\Scripts\python.exe 2-2-spatial-operations.py
-
-=== STDOUT ===
+  [패치] URL 대신 로컬 파일 사용: ne_110m_admin_0_countries.zip
 ============================================================
 GeoPandas 공간 연산 실습
 ============================================================
@@ -50,5 +48,3 @@ GeoPandas 공간 연산 실습
     실제 면적 참고값:   ~100,210 km²
 
 [완료] 공간 연산 실습을 마쳤다.
-
-=== STDERR ===

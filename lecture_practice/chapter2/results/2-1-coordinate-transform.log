@@ -1,7 +1,4 @@
-$ C:\Users\user\documents\lee\class\2026-2\geoai\.venv\Scripts\python.exe 2-1-coordinate-transform.py
-
-=== STDOUT ===
-============================================================
+﻿============================================================
 좌표 변환: WGS84(EPSG:4326) → UTM 52N(EPSG:32652)
 ============================================================
 
@@ -31,5 +28,3 @@ $ C:\Users\user\documents\lee\class\2026-2\geoai\.venv\Scripts\python.exe 2-1-co
     단위: metre
 
 [완료] 좌표 변환 실습을 마쳤다.
-
-=== STDERR ===

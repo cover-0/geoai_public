@@ -1,29 +1,21 @@
-$ C:\Users\user\documents\lee\class\2026-2\geoai\.venv\Scripts\python.exe 2-0b-prepare-osm-snapshot.py
-
-=== STDOUT ===
 ========================================================================
-2장 준비: OpenStreetMap 스냅샷
+2장 준비: OpenStreetMap 스냅샷 내려받기
 ========================================================================
+  © OpenStreetMap contributors — ODbL 1.0
 
-[건너뜀] 스냅샷이 이미 있어 내려받지 않았다(재현성 유지).
-  취득일          : 2026-08-13
-  출처            : OpenStreetMap (Overpass API, osmnx)
-  라이선스        : ODbL 1.0 — © OpenStreetMap contributors
-  도로망 반경(m)  : 5000
-  건물 반경(m)    : 4300
+▶ 옥수 (성동구 옥수동 일대) — (37.5405, 127.018)
+    도로망 노드 14,042 · 엣지 37,193
+    건물 38,378채 · 층수 태그 보유 5,381채 (14.0%)
+▶ 신림 (관악구 신림동 일대) — (37.484, 126.9295)
+    도로망 노드 8,948 · 엣지 24,465
+    건물 19,331채 · 층수 태그 보유 5,583채 (28.9%)
+▶ 화곡 (강서구 화곡동 일대) — (37.541, 126.84)
+    도로망 노드 7,234 · 엣지 20,172
+    건물 16,289채 · 층수 태그 보유 4,627채 (28.4%)
 
-지점별 스냅샷 규모
-  지점           노드       엣지       건물  차단 지형
-  옥수       14,035   37,193   37,717  한강(남쪽) + 남산 자락(북쪽)
-  신림        8,952   24,477   19,237  관악산(남쪽)
-  화곡        7,230   20,159   16,289  없음(평지 격자)
-
-파일 해시(SHA-256 앞 16자리)
-  osm_nodes.parquet        6da85f021e11fb16…
-  osm_edges.parquet        e67b633ce187f5a7…
-  osm_buildings.parquet    9eb569501ec1b6b2…
-  store_points.geojson     c480dc99738b1034…
-
-스냅샷을 새로 받으려면: python 2-0b-prepare-osm-snapshot.py --refresh
-
-=== STDERR ===
+저장 완료
+  data\osm_nodes.parquet  (1,297 KB)
+  data\osm_edges.parquet  (1,105 KB)
+  data\osm_buildings.parquet  (2,194 KB)
+  data\store_points.geojson  (1 KB)
+  data\osm_snapshot_meta.json  (2 KB)
