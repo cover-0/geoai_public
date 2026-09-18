@@ -1,0 +1,32 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 3,
+  "seed_offset": 0,
+  "python_version": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prep": [
+    {
+      "file": "3-0b-commercial-bias-data-prep.py",
+      "relpath": "lecture_practice\\chapter3\\code\\3-0b-commercial-bias-data-prep.py",
+      "started_at": "2026-09-18T20:42:08.592250+09:00",
+      "duration_sec": 8.53,
+      "exit_code": 0,
+      "timed_out": false,
+      "success": true,
+      "source_sha256": "dd97e27a2c5fbe786a9416b0054aa8b369439bf52e61acb6545e70b536702ce2",
+      "output_sha256": "9a5abb17b53ac9be18fbe7e5230fcffde53716da661f9bb97d3daaec295b2dc4"
+    }
+  ],
+  "target": {
+    "file": "3-4-commercial-data-bias.py",
+    "relpath": "lecture_practice\\chapter3\\code\\3-4-commercial-data-bias.py",
+    "started_at": "2026-09-18T20:42:17.122112+09:00",
+    "duration_sec": 3.56,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "070f60ad4ff878ff51777e8a2b6c86580f12ac83f58d3bb06024a3a9874295e5",
+    "output_sha256": "ded180f1cfca8313159373df939a47a8b0483d8aad7a06d2fdb99cefc5c10363"
+  }
+}
