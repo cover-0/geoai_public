@@ -1,0 +1,20 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 4,
+  "seed_offset": 694488,
+  "python_version": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prep": [],
+  "target": {
+    "file": "4-2-spatial-cv.py",
+    "relpath": "lecture_practice\\chapter4\\code\\4-2-spatial-cv.py",
+    "started_at": "2026-09-27T20:35:09.336838+09:00",
+    "duration_sec": 54.68,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "5b61ca996cd91313c06671dfc5d274f51cd00cf7189354e0669bfce08325cce3",
+    "output_sha256": "1079b9086e2ab5f8378b75d979017ef92cf4c19e283ce396c177046faee1ac2f"
+  }
+}
