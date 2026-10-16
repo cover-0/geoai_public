@@ -1,0 +1,32 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 7,
+  "seed_offset": 694488,
+  "python_version": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prep": [
+    {
+      "file": "7-0b-demand-simdata.py",
+      "relpath": "lecture_practice\\chapter7\\code\\7-0b-demand-simdata.py",
+      "started_at": "2026-10-16T13:55:14.278084+09:00",
+      "duration_sec": 0.75,
+      "exit_code": 0,
+      "timed_out": false,
+      "success": true,
+      "source_sha256": "aecda60fe8e9af23699c3dee1b1170659a67a06a1af18edc8c4dda905df64b8b",
+      "output_sha256": "ee795016920906861d48e060da3736dee7dd86682261dd6ee6725cf907fc1aa0"
+    }
+  ],
+  "target": {
+    "file": "7-3-demand-newsvendor.py",
+    "relpath": "lecture_practice\\chapter7\\code\\7-3-demand-newsvendor.py",
+    "started_at": "2026-10-16T13:55:15.032839+09:00",
+    "duration_sec": 22.32,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "cd4228613e35e7d7c95dfaabd6eca549d23e206e43836c04d07d5f9ef59268fe",
+    "output_sha256": "4633be6ba8f9cb6260d1b5f6d179d0e22aa7afe4757e6a89315cae7ccad319e4"
+  }
+}
