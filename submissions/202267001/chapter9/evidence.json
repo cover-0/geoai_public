@@ -1,0 +1,32 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 9,
+  "seed_offset": 694488,
+  "python_version": "3.12.10",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "prep": [
+    {
+      "file": "9-0-simdata-prep.py",
+      "relpath": "lecture_practice\\chapter9\\code\\9-0-simdata-prep.py",
+      "started_at": "2026-11-01T01:20:09.314097+09:00",
+      "duration_sec": 0.56,
+      "exit_code": 0,
+      "timed_out": false,
+      "success": true,
+      "source_sha256": "c628e85e46f50829b5a67ef60111bd46f621c40607630413f06a4e5438476da3",
+      "output_sha256": "35cfdb419fabcf201581328786c1a9eefbfa6d530c1f033248c05a2d0813e238"
+    }
+  ],
+  "target": {
+    "file": "9-1-nightlight-did-dml.py",
+    "relpath": "lecture_practice\\chapter9\\code\\9-1-nightlight-did-dml.py",
+    "started_at": "2026-11-01T01:20:09.873632+09:00",
+    "duration_sec": 8.36,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "67da8b3e21f61677539bbb566498bf2187771196252b9e73427fcaa5656e7b51",
+    "output_sha256": "2db76eae0ccfacbf3c043696ca4dd1a80662315d09fd4036601b71d5964557df"
+  }
+}
