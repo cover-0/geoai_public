@@ -1,32 +1,32 @@
 {
-  "student_id": "20226701",
+  "student_id": "202267001",
   "student_name": "김태휘",
   "chapter": 11,
-  "seed_offset": 687861,
+  "seed_offset": 694488,
   "python_version": "3.13.12",
   "platform": "Windows-11-10.0.26200-SP0",
   "prep": [
     {
       "file": "11-0-simdata-prep.py",
       "relpath": "lecture_practice\\chapter11\\code\\11-0-simdata-prep.py",
-      "started_at": "2026-11-16T18:03:18.397892+09:00",
-      "duration_sec": 3.08,
+      "started_at": "2026-11-16T18:58:56.282252+09:00",
+      "duration_sec": 0.94,
       "exit_code": 0,
       "timed_out": false,
       "success": true,
       "source_sha256": "173d56de3fa3388e8acc75bca41d13e449301b4a0e0ea46bcc1daa2579df05cf",
-      "output_sha256": "baf96a8b902348851cfb33b05fed7cbbfd0f36704ad4cf0e22f2cca0d91e0b4a"
+      "output_sha256": "1e015f2c4f21679019085ccff20413416953297bedd3507944a77c730a0bd7a0"
     }
   ],
   "target": {
     "file": "11-1-flood-risk-priority.py",
     "relpath": "lecture_practice\\chapter11\\code\\11-1-flood-risk-priority.py",
-    "started_at": "2026-11-16T18:03:21.478523+09:00",
-    "duration_sec": 11.3,
+    "started_at": "2026-11-16T18:58:57.218607+09:00",
+    "duration_sec": 6.36,
     "exit_code": 0,
     "timed_out": false,
     "success": true,
     "source_sha256": "77a946f613d35e1ed54db86ca43e127a3449e7afae99c5df4b5011e9eb0b0663",
-    "output_sha256": "736095a8bbf4bf3dfd3000e88fb1227033c970d5b00dbaff61e33cc39dc8ab52"
+    "output_sha256": "18110d35f282b7fd471c26bc7284a7616d71875f8648e8daa80c7b7388319155"
   }
 }
