@@ -1,0 +1,20 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 10,
+  "seed_offset": 0,
+  "python_version": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prep": [],
+  "target": {
+    "file": "10-2-civil-complaint-forecast.py",
+    "relpath": "lecture_practice\\chapter10\\code\\10-2-civil-complaint-forecast.py",
+    "started_at": "2026-11-15T17:29:16.000496+09:00",
+    "duration_sec": 5.49,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "85e88c62bea9551daf1e09b2ccc1d95e35e34b6f5976223ed00f15ef475bbcc1",
+    "output_sha256": "7fd758ae1190d8dbf1038e8069d3ec7e3db6ea8011e4f592667c7d4c38ac4918"
+  }
+}
