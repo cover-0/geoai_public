@@ -1,0 +1,32 @@
+{
+  "student_id": "202267001",
+  "student_name": "김태휘",
+  "chapter": 12,
+  "seed_offset": 694488,
+  "python_version": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prep": [
+    {
+      "file": "12-0-simdata-prep.py",
+      "relpath": "lecture_practice\\chapter12\\code\\12-0-simdata-prep.py",
+      "started_at": "2026-11-20T19:15:19.843166+09:00",
+      "duration_sec": 0.97,
+      "exit_code": 0,
+      "timed_out": false,
+      "success": true,
+      "source_sha256": "62415369ea23070b31f0489b3b770795c3398ba1fbabb3337806478213fcd64b",
+      "output_sha256": "747bb49f557cc77004898d0087d687fe20b47e446185e4ff3847d4cd384a6e8f"
+    }
+  ],
+  "target": {
+    "file": "12-1-decline-vulnerability-typology.py",
+    "relpath": "lecture_practice\\chapter12\\code\\12-1-decline-vulnerability-typology.py",
+    "started_at": "2026-11-20T19:15:20.810132+09:00",
+    "duration_sec": 2.86,
+    "exit_code": 0,
+    "timed_out": false,
+    "success": true,
+    "source_sha256": "53ea340458b119a07f91e333c86b0fb169b087594b0917162bb75817bca026f5",
+    "output_sha256": "dccd355ec27868e4be83e0f0b31b6e14a9483ce9995d7150b671132d830c29f2"
+  }
+}
